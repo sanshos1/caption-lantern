@@ -1,0 +1,1 @@
+Demo accessibility standard. Captions must preserve every spoken line in order, identify speakers when the image does not make identity obvious, and include meaningful non-speech audio cues such as bells, alarms, music, and directional sounds. A track is ready only when coverage is at least 95 percent and no material cue is missing.
