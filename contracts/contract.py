@@ -40,6 +40,7 @@ class Audit:
 class CaptionLantern(gl.Contract):
  reels:TreeMap[str,Reel]
  audits:TreeMap[str,Audit]
+ def __init__(self):pass
  def _get(self,reel_id):
   k=ident(reel_id)
   if k not in self.reels:raise gl.vm.UserError('[EXPECTED] reel not found')

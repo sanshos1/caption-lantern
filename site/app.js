@@ -1,5 +1,5 @@
 import{createAccount,createClient}from'https://esm.sh/genlayer-js@1.1.8';import{studionet}from'https://esm.sh/genlayer-js@1.1.8/chains';
-const CONTRACT='__CONTRACT__',endpoint='https://studio.genlayer.com/api',repo='https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/';
+const CONTRACT='0x90507eB04c75D79378eEFA95b7B4e530e74f5d03',endpoint='https://studio.genlayer.com/api',repo='https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/';
 const $=id=>document.getElementById(id),reader=createClient({chain:studionet,endpoint,account:createAccount()});let writer=null,state='DRAFT';
 $('reelId').value='LANTERN-'+Date.now();$('transcript').value=repo+'demo-transcript.txt';$('captions').value=repo+'demo-captions.vtt';$('standard').value=repo+'demo-standard.txt';$('patch').value=repo+'demo-patch.vtt';$('explorer').href=CONTRACT.startsWith('0x')?`https://explorer-studio.genlayer.com/address/${CONTRACT}`:'#';
 const say=x=>$('message').textContent=x;const short=x=>x.slice(0,6)+'…'+x.slice(-4);$('begin').onclick=()=>document.querySelector('#screening').scrollIntoView();$('sourcesToggle').onclick=()=>{const d=$('sourceDrawer');d.hidden=!d.hidden;$('sourcesToggle').textContent=d.hidden?'OPEN SOURCE DRAWER':'CLOSE SOURCE DRAWER'};

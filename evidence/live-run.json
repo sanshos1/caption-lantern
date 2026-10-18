@@ -1,0 +1,40 @@
+{
+  "recordId": "LANTERN-1792344581",
+  "contractAddress": "0x90507eB04c75D79378eEFA95b7B4e530e74f5d03",
+  "transactions": {
+    "mount": "0x9dd4ac8b14497443b57416f104a343b65da5009f21d608e921d3a5da09314b04",
+    "audit": "0xaf96e9758ae285ae42bb8c27a553bc6777c4b900280ce2ac4dec795275f40bb6",
+    "patch": "0x26a341dd46c3142192b08f09339ac6fb3a32beba1e43f214add35cc4fdbcbc61"
+  },
+  "state": "PATCHED",
+  "verdict": "READY",
+  "coverage": 100,
+  "sourceRound": "PATCH",
+  "readback": {
+    "audit": {
+      "coverage": 100,
+      "cue_indexes": [],
+      "issue_codes": [],
+      "rationale": "The captions perfectly match the transcript. All dialogue, speaker identifications, and non-speech audio cues (bell and directional footsteps) are present in the correct order and timeframes. Coverage is 100%.",
+      "source_round": "PATCH",
+      "verdict": "READY"
+    },
+    "digests": [
+      "97a00df29161146b83558dc43424c2ab47e1c51c969eae953023554d960db2b6",
+      "06b26d5ad6178bff29da8341cb2720572c63784c9cc6d6dbb53ac63ff231e139",
+      "46fc805605ec618348268e3bd5443c2f6eb397e846f1456759f84f7f46d55096"
+    ],
+    "id": "LANTERN-1792344581",
+    "language": "English",
+    "owner": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "patch_digest": "834f410c606eba5afb2408c419de56643d5df03e5b339dced0632221d3fc632f",
+    "patch_url": "https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/demo-patch.vtt",
+    "sources": [
+      "https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/demo-transcript.txt",
+      "https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/demo-captions.vtt",
+      "https://raw.githubusercontent.com/sanshos1/caption-lantern/main/evidence/demo-standard.txt"
+    ],
+    "state": "PATCHED",
+    "title": "Lantern Desk orientation"
+  }
+}

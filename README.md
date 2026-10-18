@@ -26,4 +26,4 @@ python -m pytest -q
 node --check site/app.js
 ```
 
-StudioNet address, reviewed source commit, lifecycle transactions, and public build revision are recorded after deployment in `deployment.json` and `evidence/live-run.json`.
+The reviewed contract is deployed on StudioNet at [`0x90507eB04c75D79378eEFA95b7B4e530e74f5d03`](https://explorer-studio.genlayer.com/address/0x90507eB04c75D79378eEFA95b7B4e530e74f5d03). Its finalized deployment receipt is recorded in `deployment.json`; lifecycle transactions and canonical readback are recorded in `evidence/live-run.json` after the live rehearsal. The earlier `0xFe9d…9235` rehearsal deployment is retired and is not used by the interface.

@@ -13,3 +13,4 @@ def test_closed_outcomes_and_backstop():
 def test_validator_refetches():
  body=re.search(r'def _audit\(.*?\n @gl.public.write',S,re.S).group(0)
  assert 'gl.nondet.web.get' in body and 'prompt_comparative' in body
+def test_contract_initializes_public_surface():assert 'def __init__(self):pass' in S
