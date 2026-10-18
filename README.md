@@ -1,5 +1,7 @@
 # Caption Lantern
 
+**Live application:** https://caption-lantern.ranko5180.chatgpt.site
+
 _Screening note 01: accessibility defects should appear at the cue where they happen._
 
 Mount one transcript, one caption track, and one public captioning standard. Caption Lantern freezes their exact bytes before independent GenLayer validators compare the track cue by cue. The stored reading is deliberately small: `READY`, `REPAIR`, or `BLOCKED`; a coverage percentage; exact cue indexes; and closed issue codes.
